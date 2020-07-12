@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-
+import styled from '@react-pdf/styled-components';
 import { Page, Text, View, Document, StyleSheet } from '@react-pdf/renderer'
 
 // Create styles
@@ -16,10 +16,17 @@ const styles = StyleSheet.create({
   }
 })
 
-export default function Pdf ({ t }) {
+const Heading = styled.Text`
+  margin: 10px;
+  font-size: 22px;
+  font-family: 'Helvetica';
+`;
+
+export default function Index ({ t }) {
   return (
     <Document title={t('resume.title')}>
       <Page size='A4' style={styles.page}>
+        <Heading>test</Heading>
         <View style={styles.section}>
           <Text>aa</Text>
         </View>
@@ -31,6 +38,6 @@ export default function Pdf ({ t }) {
   )
 }
 
-Pdf.propTypes = {
+Index.propTypes = {
   t: PropTypes.func.isRequired
 }
