@@ -19,6 +19,7 @@
     "@babel/preset-env": "7.10.4",
     "@babel/preset-react": "7.10.4",
     "@react-pdf/renderer": "2.0.0-beta.6",
+    "@react-pdf/styled-components": "1.4.0",
     "i18next": "19.6.0",
     "react": "16.13.1",
     "react-dom": "16.13.1",

@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import styled from '@react-pdf/styled-components';
+import styled from '@react-pdf/styled-components'
 import { Page, Text, View, Document, StyleSheet } from '@react-pdf/renderer'
 
 // Create styles
@@ -20,7 +20,7 @@ const Heading = styled.Text`
   margin: 10px;
   font-size: 22px;
   font-family: 'Helvetica';
-`;
+`
 
 export default function Index ({ t }) {
   return (

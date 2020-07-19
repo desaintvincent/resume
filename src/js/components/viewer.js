@@ -1,5 +1,5 @@
 import { PDFViewer } from '@react-pdf/renderer'
-import Pdf from './pdf'
+import Pdf from './pdf/pdf'
 import styled from 'styled-components'
 import React from 'react'
 import { useTranslation } from 'react-i18next'
